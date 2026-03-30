@@ -207,32 +207,6 @@ Result: user456 notifications appear
 
 ---
 
-## Common Errors
-
-### ERR_CONNECTION_REFUSED
-
-Cause: Backend not running
-
-Fix:
-
-```
-npm run dev
-```
-
----
-
-### 404 Not Found
-
-Cause: Incorrect API route
-
----
-
-### Unexpected token '<'
-
-Cause: Backend returned HTML instead of JSON
-
----
-
 ### Duplicate notification skipped
 
 Cause: Same eventId used again
